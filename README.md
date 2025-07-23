@@ -18,8 +18,8 @@ A modern, modular chatbot web application using FastAPI (Python), Google Gemini 
 ### 1. **Clone the Repository**
 ```bash
 
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone <https://github.com/arshah-lamees/chatbot.git>
+cd <chatbot>
 ```
 
 ### 2. **Set Up a Virtual Environment (Recommended)**
