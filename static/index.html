@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Chatbot</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gemini Chatbot 🤖</h2>
+        <div id="chat"></div>
+        <form id="input-area">
+            <input type="text" id="message" placeholder="Type your message..." autocomplete="off" required />
+            <button type="submit" id="send">Send</button>
+            <span id="loading" style="display:none; margin-left:8px;">
+                <svg width="20" height="20" viewBox="0 0 50 50">
+                  <circle cx="25" cy="25" r="20" fill="none" stroke="#1976d2" stroke-width="4" stroke-linecap="round" stroke-dasharray="31.4 31.4" transform="rotate(-90 25 25)">
+                    <animateTransform attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="1s" repeatCount="indefinite"/>
+                  </circle>
+                </svg>
+            </span>
+        </form>
+    </div>
+    <script src="/static/chat.js"></script>
+</body>
+</html> 
